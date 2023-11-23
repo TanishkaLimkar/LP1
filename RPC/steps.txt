@@ -1,0 +1,15 @@
+1. Compile MyInterface.java using command 
+javac MyInterface.java
+2. Compile RMIServer.java using command
+javac RMIServer.java
+3. Compile RMIClient.java using command
+javac RMIClient.java 
+4. Then type command 
+rmiregistry 
+5. Then open a new terminal and type command
+java RMIServer 
+6. Then open a new terminal and type command
+java RMIClient 
+7. Then it will prompt you to type something. So type some text.
+8. Then the output on client side will be the length of the text that you typed.
+9. Then check the output of the server terminal.
